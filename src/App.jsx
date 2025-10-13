@@ -7,6 +7,7 @@ import Carousel from "./components/carousel.component";
 import Login from "./components/login";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import PhoneLogin from "./components/phoneLogin";
+import LoginCode from "./components/loginCode";
 
 function App() {
   // let slides = [
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/login-with-phone" element={<PhoneLogin />} />
+            <Route path="/login-code" element={<LoginCode />} />
           </Routes>
         </BrowserRouter>
       </div>
