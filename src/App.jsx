@@ -8,6 +8,8 @@ import Login from "./components/login";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import PhoneLogin from "./components/phoneLogin";
 import LoginCode from "./components/loginCode";
+import FormPage from "./components/formPage";
+import FormPage2 from "./components/formPage2";
 
 function App() {
   // let slides = [
@@ -25,6 +27,8 @@ function App() {
             <Route path="/" element={<Login />} />
             <Route path="/login-with-phone" element={<PhoneLogin />} />
             <Route path="/login-code" element={<LoginCode />} />
+            <Route path="/login-form" element={<FormPage />} />
+            <Route path="/login-form-2" element={<FormPage2 />} />
           </Routes>
         </BrowserRouter>
       </div>
