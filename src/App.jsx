@@ -31,6 +31,7 @@ function App() {
             <Route path="/login-code" element={<LoginCode />} />
             <Route path="/login-form" element={<FormPage />} />
             <Route path="/login-form-2" element={<FormPage2 />} />
+            <Route path="/login-form-3" element={<FormPage3 />} />
             <Route path="/login-form-4" element={<VerifyEmail />} />
           </Routes>
         </BrowserRouter>

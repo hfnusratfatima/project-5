@@ -16,9 +16,7 @@ const VerifyEmail = () => {
           <div className="w-[80%] ">
             <div className="flex flex-col items-center justify-center">
               <img src={dummyImage} alt="image here" className="w-70 " />
-              <h1 className="text-2xl font-bold mt-5 mb-5">
-                Verify Your Email
-              </h1>
+              <h1 className="text-2xl font-bold mt-5 ">Verify Your Email</h1>
               <p>Get instant rewards and full access.</p>
             </div>
             <div className="bg-blue-100 p-3 rounded mt-10">
@@ -31,7 +29,7 @@ const VerifyEmail = () => {
               <button className="text-xl mt-20 text-white bg-blue-700 cursor-pointer w-[100%] px-4 py-4 border-2  rounded-full hover:text-white transition-all duration-300">
                 Verify Email
               </button>
-              <button className="text-xl mt-5 mb-5 text-blue-700 bg-blue-100 cursor-pointer w-[100%] px-4 py-4 border-2  rounded-full  transition-all duration-300">
+              <button className="text-xl mt-5  text-blue-700 bg-blue-100 cursor-pointer w-[100%] px-4 py-4 border-2  rounded-full  transition-all duration-300">
                 Skip For Now
               </button>
             </div>

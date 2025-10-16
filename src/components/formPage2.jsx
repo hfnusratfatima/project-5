@@ -12,7 +12,7 @@ const FormPage2 = () => {
         </div>
         <div className="w-[40%]">
           <div className="w-[80%]">
-            <h1 className="text-2xl font-semibold text-left">
+            <h1 className="text-2xl mt-8 font-semibold text-left">
               Tell Us About You
             </h1>
             <p>Choose how you went to join Tudo Num.</p>
@@ -47,8 +47,8 @@ const FormPage2 = () => {
                 </label>
               </div>
             </div>
-            <div className="flex flex-col gap-2 mt-5">
-              <div className="mt-2 mb-2">
+            <div className="flex flex-col gap-2 mt-3">
+              <div className="mt-2 ">
                 <label>Country or Region</label>
                 <br></br>
                 <select
@@ -61,7 +61,7 @@ const FormPage2 = () => {
                   <option value="audi">itlay</option>
                 </select>
               </div>
-              <div className="mt-2 mb-2">
+              <div className="mt-2 ">
                 <label>Select City</label>
                 <br></br>
                 <select
@@ -74,7 +74,7 @@ const FormPage2 = () => {
                   <option value="audi">City Name A</option>
                 </select>
               </div>
-              <div className="mt-2 mb-2">
+              <div className="mt-2 ">
                 <label>Language Perference</label>
                 <br></br>
                 <select
